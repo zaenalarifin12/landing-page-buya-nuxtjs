@@ -1,0 +1,43 @@
+.my-bg-image{
+    background-image: url("../bg/pabrik.JPG");
+    background-repeat: no-repeat;
+    background-size: 40%;
+
+}
+
+.my-bg-blue-image{
+    background-image: url("../bg/bg-blue.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.my-bg-orange-image{
+    background-image: url("../bg/bg-orange.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.custom-shape-divider-bottom-1600969527 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1600969527 svg {
+    position: relative;
+    display: block;
+    width: calc(137% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1600969527 .shape-fill {
+    fill: #F6F9F9;
+}
+
+
