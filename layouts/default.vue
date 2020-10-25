@@ -10,23 +10,25 @@
                   </div>
                   <div class="pb-3 px-20 hidden md:block ">
                       <ul class="flex flex-row justify-evenly text-xl">
-                          <li class="">
-                            <nuxt-link to="/" class="text-blue-primary font-bold text-md ">
-                              Home
-                            </nuxt-link>
-                            
-                          </li>
-                          <li class="text-md font-bold text-orange-primary">
-                              <a href="portofolio.html"> Portofolio</a>
-                          </li>
-                          <li class="text-md font-bold text-orange-primary">
-                              <a href="#"> Testomonial </a>
-                          </li>
-                          <li class="text-md font-bold text-orange-primary">
-                              <a href="#">
-                                  Profil Perusahaan
-                              </a>
-                          </li>
+                            <li class="">
+                                <nuxt-link to="/" class="text-orange-primary font-bold text-md ">
+                                Home
+                                </nuxt-link>
+                                
+                            </li>
+                            <li class="text-md font-bold text-orange-primary">
+                                <a href="portofolio.html"> Portofolio</a>
+                            </li>
+                            <li>
+                                <nuxt-link to="/testimoni" class="text-orange-primary font-bold text-md ">
+                                    Testimoni
+                                </nuxt-link>
+                            </li>
+                            <li >
+                                <nuxt-link to="/profil" class="text-orange-primary font-bold text-md ">
+                                    Profil
+                                </nuxt-link>
+                            </li>
                       </ul>
                   </div>
               </div>
@@ -52,22 +54,30 @@
           </div>
 
           <div v-if="isOpen">
-              <div class="fixed w-full pt-20 bg-white px-10 block md:hidden z-40">
+              <div class="fixed w-full pt-24 bg-white shadow-2xl px-10 block md:hidden z-40">
 
-                  <div class="block">
+                  <div class="block mb-5">
                       <ul class="flex flex-col items-end text-xl">
-                          <li class=" my-1 border-b border-blue-primary font-bold text-blue-primary">
-                              <a href="index.html">Home</a>
-                          </li>
-                          <li class=" my-1 border-b border-orange-primary font-bold text-orange-primary">
-                              <a href="portofolio.html">Portofolio</a>
-                          </li>
-                          <li class=" my-1 border-b border-orange-primary font-bold text-orange-primary">
-                              <a href=""></a>
-                              Testomonial
-                          </li>
-                          <li class=" my-1 border-b border-orange-primary font-bold text-orange-primary">Profil
-                              Perusahaan</li>
+                            <li class="">
+                                <nuxt-link to="/" class="my-1 border-b border-orange-primary font-bold text-orange-primary ">
+                                    Home
+                                </nuxt-link>
+                            </li>
+                            <li>
+                                <nuxt-link to="/portofolio" class="my-1 border-b border-orange-primary font-bold text-orange-primary ">
+                                    Portofolio
+                                </nuxt-link>
+                            </li>
+                            <li>
+                                <nuxt-link to="/testimoni" class="my-1 border-b border-orange-primary font-bold text-orange-primary">
+                                    Testimoni
+                                </nuxt-link> 
+                            </li>
+                            <li>
+                                <nuxt-link to="/profil" class="my-1 border-b border-orange-primary font-bold text-orange-primary">
+                                    Profil Perusahaan
+                                </nuxt-link>   
+                            </li>
                       </ul>
                   </div>
               </div>
@@ -167,5 +177,10 @@ export default {
     .sub-margin{
         margin-top: -20px;
         margin-bottom:-10px
-      }
+    }
+    
+    .nuxt-link-exact-active {
+        color: rgb(2, 54, 92); 
+    }
+
 </style>
