@@ -6,7 +6,7 @@
               
               <div class="flex flex-col">
                   <div class=" hidden md:block sub-margin">
-                      <img src="/bg/logo.png" class="h-40 mx-auto" alt="" srcset="">
+                      <img src="/bg/logo.png" class="h-24 my-8 mx-auto" alt="" srcset="">
                   </div>
                   <div class="pb-3 px-20 hidden md:block ">
                       <ul class="flex flex-row justify-evenly text-xl">
@@ -16,8 +16,10 @@
                                 </nuxt-link>
                                 
                             </li>
-                            <li class="text-md font-bold text-orange-primary">
-                                <a href="portofolio.html"> Portofolio</a>
+                            <li>
+                                <nuxt-link to="/portofolio" class="text-orange-primary font-bold text-md ">
+                                    Portofolio
+                                </nuxt-link>
                             </li>
                             <li>
                                 <nuxt-link to="/testimoni" class="text-orange-primary font-bold text-md ">
