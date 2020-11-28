@@ -51,7 +51,7 @@ export default {
         }
     },
     async asyncData() {
-      const { data } = await axios.get(`https://scientific-ultra-dumpling.glitch.me/api?id=1DmxAYjzMzLscRlA7UhnMqGLEYgoJhO9lC40KwsU2v50`)
+      const { data } = await axios.get(`https://buya-barokah-kudus.herokuapp.com/api?id=1DmxAYjzMzLscRlA7UhnMqGLEYgoJhO9lC40KwsU2v50`)
     //   console.log(data.rows)
       return { products: data.rows }
     },

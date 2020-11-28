@@ -35,9 +35,9 @@
                   </div>
               </div>
 
-              <div class="flex flex-row md:hidden pr-5 h-20 justify-between items-center">
-                  <div class="flex justify-left">
-                      <img src="/bg/logo-mobile.png" class="w-full" alt="" srcset="">
+              <div class="flex flex-row md:hidden px-5 h-20 justify-between items-center">
+                  <div class="flex justify-left ">
+                      <img src="/bg/logo.png" class="w-auto h-16 " alt="" srcset="">
                   </div>
                   
   

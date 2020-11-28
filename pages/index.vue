@@ -628,7 +628,7 @@
 
           <div class="mx-5 md:mx-20  mb-10 ">
               <div id="map" class="rounded-xl shadow-2xl">
-
+                 
               </div>
           </div>
 
@@ -636,21 +636,22 @@
   
 </template>
 
+
 <script>
 
-export default {
-     head: {
-        title: 'Buya Barokah Kudus',
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            {
-                hid: 'Buya Barokah Kudus',
-                name: 'Buya Barokah Kudus',
-                content: 'Buya Barokah Kudus'
-            }
-        ],
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    export default {
+        head: {
+            title: 'Buya Barokah Kudus',
+            meta: [
+                { charset: 'utf-8' },
+                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                {
+                    hid: 'Buya Barokah Kudus',
+                    name: 'Buya Barokah Kudus',
+                    content: 'Buya Barokah Kudus'
+                }
+            ],
+            link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+        }
     }
-}
 </script>
