@@ -627,8 +627,13 @@
 
 
           <div class="mx-5 md:mx-20  mb-10 ">
-              <div id="map" class="rounded-xl shadow-2xl">
-                 
+              <div class="rounded-xl shadow-2xl">
+                <GmapMap
+                    :center="{lat:10, lng:10}"
+                :zoom="7"
+                map-type-id="roadmap"
+                style="width: 100%; height: 500px"
+                />
               </div>
           </div>
 
@@ -638,6 +643,7 @@
 
 
 <script>
+
 
     export default {
         head: {
@@ -652,6 +658,7 @@
                 }
             ],
             link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
-        }
+        },
+        
     }
 </script>
