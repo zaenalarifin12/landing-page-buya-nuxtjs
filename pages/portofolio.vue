@@ -26,13 +26,6 @@
 import axios from 'axios';
 
 export default {
-    data() {
-        return {
-            min: 1,
-            max: 32
-        } 
-
-    }
 
 }
 </script>
